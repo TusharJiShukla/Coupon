@@ -11,10 +11,10 @@ app.use(cookieParser()); // Use cookie-parser middleware
 
 // MySQL Connection
 const db = mysql.createConnection({
-    host: "127.0.0.1", // Database host
-    user: "root", // Database user
-    password: "Tusharji@1", // Database password
-    database: "coupon_system", // Database name
+    host: "sql3.freesqldatabase.com", // Database host
+    user: "sql3767801", // Database user
+    password: "p1AxQb1ifG", // Database password
+    database: "sql3767801", // Database name
 });
 
 db.connect(err => {
